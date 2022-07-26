@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connecting to Swipe Pay via plugin</title>
+    <base href=":merchantid">
+    <link rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <swipe-pay-widget
+        merchant-id="999612213216313344" //merchantid
+        pay-amount= '240' //amount
+        fallback-url = 'https://google.com/' //fallbackurl
+    ></swipe-pay-widget>
+
+    <script src="https://cdn.jsdelivr.net/npm/swipe-pay@2.0.1"></script>
+</body>
+
+</html>
