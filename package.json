@@ -1,6 +1,6 @@
 {
   "name": "swipe-pay",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Buy now, pay later with Swipe",
   "main": "swipe-pay-widget.js",
   "repository": {
